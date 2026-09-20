@@ -89,7 +89,7 @@ Result
 The query successfully returned orders together with customer names, cities, and order dates.
 
 Screenshot:
-<img width="624" height="470" alt="image" src="https://github.com/user-attachments/assets/da638cba-0592-4c8e-8084-d82dfe8848b7" />
+![JOIN 1 Result](screenshots/join1.png)
 
 JOIN 2 - Order Items and Products
 Purpose
@@ -116,7 +116,7 @@ Result
 The query successfully displayed the products included in each order together with their prices and quantities.
 
 Screenshot
-<img width="624" height="474" alt="image" src="https://github.com/user-attachments/assets/e31c2d7c-02e3-43af-913d-9f6c575f1f8e" />
+![JOIN 2 Result](screenshots/join2.png)
 
 JOIN 3 - Customers and Orders
 Purpose
@@ -145,7 +145,7 @@ Result
 The query successfully displayed customers and their orders while preserving customers without orders.
 
 Screenshot
-<img width="487" height="609" alt="image" src="https://github.com/user-attachments/assets/53cad0a1-6a9d-4c41-973b-9c2bad402227" />
+![JOIN 3 Result](screenshots/join3.png)
 
 CTE Query
 Customer Spending Above Average
@@ -188,8 +188,7 @@ Result
 The query successfully returned customers whose total spending was above the average customer spending.
 
 Screenshot
-
-<img width="624" height="517" alt="image" src="https://github.com/user-attachments/assets/3e1af6a2-8dd5-42ca-84ca-545454e9c883" />
+![CTE Result](screenshots/cte.png)
 
 Window Functions
 Window 1 - Customer Spending Rank
@@ -221,7 +220,7 @@ Business Interpretation
 Management can use this information to understand customer spending patterns and identify high-value customers.
 
 Screenshot
-<img width="624" height="625" alt="image" src="https://github.com/user-attachments/assets/ea59793c-ea72-4039-87c3-90950f910173" />
+![Window 1 Result](screenshots/window1.png)
 
 Window 2 - Customer Order Number
 Purpose
@@ -247,7 +246,7 @@ Business Interpretation
 This helps management understand the sequence of customer purchases and identify repeat customers.
 
 Screenshot
-<img width="595" height="621" alt="image" src="https://github.com/user-attachments/assets/d10b430a-9c32-460d-941f-47bebd9953bb" />
+![Window 2 Result](screenshots/window2.png)
 
 Window 3 - Running Revenue Total
 Purpose
@@ -276,7 +275,7 @@ Business Interpretation
 Management can use the running revenue total to monitor sales growth over time.
 
 Screenshot
-<img width="624" height="515" alt="image" src="https://github.com/user-attachments/assets/d437361a-90c2-4dbb-9644-e890520753be" />
+![Window 3 Result](screenshots/window3.png)
 
 Window 4 - Days Between Customer Orders
 Purpose
@@ -311,7 +310,7 @@ Business Interpretation
 This information can help Sunrise Supermarket understand how frequently repeat customers return to make purchases.
 
 Screenshot
-<img width="624" height="613" alt="image" src="https://github.com/user-attachments/assets/cc54feba-c568-46c1-83d3-f6b19c6f3996" />
+![Window 4 Result](screenshots/window4.png)
 
 Business Interpretation
 
