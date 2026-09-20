@@ -90,7 +90,7 @@ The query successfully returned orders together with customer names, cities, and
 
 Screenshot:
 
-<img src="./join1.png" alt="JOIN 1 Result">
+![JOIN 1 Result](./join1.png)
 
 JOIN 2 - Order Items and Products
 Purpose
