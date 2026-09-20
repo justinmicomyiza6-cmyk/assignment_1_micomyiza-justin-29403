@@ -58,24 +58,3 @@ The database contains:
 | `03_joins.sql` | Contains the three JOIN queries |
 | `04_cte.sql` | Contains the customer spending CTE |
 | `05_window_functions.sql` | Contains four window-function queries |
-
-# JOIN Queries
-
-## JOIN 1 - Orders and Customers
-
-### Purpose
-
-List every order with the customer's name, city, and order date.
-
-### SQL
-
-```sql
-SELECT
-    o.order_id,
-    c.customer_name,
-    c.city,
-    o.order_date
-FROM orders o
-INNER JOIN customers c
-    ON o.customer_id = c.customer_id
-ORDER BY o.order_date;
