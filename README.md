@@ -88,7 +88,6 @@ Result
 
 The query successfully returned orders together with customer names, cities, and order dates.
 
-Screenshot:
 
 ![JOIN 1 Result](./join1.png)
 
@@ -116,7 +115,7 @@ Result
 
 The query successfully displayed the products included in each order together with their prices and quantities.
 
-Screenshot
+
 ![JOIN 2 Result](screenshots/join2.png)
 
 JOIN 3 - Customers and Orders
