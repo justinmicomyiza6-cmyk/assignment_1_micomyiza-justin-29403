@@ -88,8 +88,7 @@ Result
 
 The query successfully returned orders together with customer names, cities, and order dates.
 
-
-<img src="join1.png" alt="Join 1" width="500">
+![Join 1 Output](join1.png)
 
 JOIN 2 - Order Items and Products
 Purpose
@@ -116,7 +115,7 @@ Result
 The query successfully displayed the products included in each order together with their prices and quantities.
 
 
-![JOIN 2 Result](screenshots/join2.png)
+![Join 2 Output](join2.png)
 
 JOIN 3 - Customers and Orders
 Purpose
@@ -145,7 +144,8 @@ Result
 The query successfully displayed customers and their orders while preserving customers without orders.
 
 Screenshot
-![JOIN 3 Result](screenshots/join3.png)
+
+![Join 3 Output](join3.png)
 
 CTE Query
 Customer Spending Above Average
@@ -188,7 +188,7 @@ Result
 The query successfully returned customers whose total spending was above the average customer spending.
 
 Screenshot
-![CTE Result](screenshots/cte.png)
+![CTE Output](cte.png)
 
 Window Functions
 Window 1 - Customer Spending Rank
@@ -220,7 +220,8 @@ Business Interpretation
 Management can use this information to understand customer spending patterns and identify high-value customers.
 
 Screenshot
-![Window 1 Result](screenshots/window1.png)
+
+![Window 1 Output](window1.png)
 
 Window 2 - Customer Order Number
 Purpose
@@ -246,7 +247,7 @@ Business Interpretation
 This helps management understand the sequence of customer purchases and identify repeat customers.
 
 Screenshot
-![Window 2 Result](screenshots/window2.png)
+![Window 2 Output](window2.png)
 
 Window 3 - Running Revenue Total
 Purpose
@@ -275,7 +276,8 @@ Business Interpretation
 Management can use the running revenue total to monitor sales growth over time.
 
 Screenshot
-![Window 3 Result](screenshots/window3.png)
+
+![Window 3 Output](window3.png)
 
 Window 4 - Days Between Customer Orders
 Purpose
@@ -310,7 +312,8 @@ Business Interpretation
 This information can help Sunrise Supermarket understand how frequently repeat customers return to make purchases.
 
 Screenshot
-![Window 4 Result](screenshots/window4.png)
+
+![Window 4 Output](window4.png)
 
 Business Interpretation
 
